@@ -1,0 +1,52 @@
+.rounded-button{
+    border-radius:15px;
+    border: 1px solid #000000;
+    padding: 10px 30px;
+    background: #919191;
+    cursor: pointer;
+}
+
+.relative-box{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.float-left{
+    float: left;
+    margin: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pseudo-element::before{
+    content: "★";
+    color: gold;
+}
+
+.gradient-background{
+    background: linear-gradient(to right,red,yellow);
+}
+
+.filtered-image{
+    filter:blur(5px)brightness(1.2);
+}
